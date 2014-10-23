@@ -1,0 +1,14 @@
+.button,
+.bg-content-2,
+#contact-form,
+#request-form,
+#contact-form input,
+#contact-form textarea,
+#request-form input,
+#request-form textarea,
+.jspDrag,
+.jspTrack {behavior: url(/js/PIE.htc); position:relative;}
+
+.menu ul {behavior: url(/js/PIE.htc);}
+#slideshow section{background:url(/images/g_p_texture.png) !important}
+#slideshow2 section{background:url(/images/g_p_texture.png) !important} 

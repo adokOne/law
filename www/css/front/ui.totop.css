@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.1
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+
+
+#toTop {background:url(/images/back_texture.png) ;
+	display:none;
+	position:fixed;
+	right:100px;
+	bottom:90px;
+	border:none;
+	z-index:20;
+	font-family: 'Oswald', sans-serif;
+	font-size:16px;
+	text-transform:uppercase;
+	padding:20px 20px 20px 20px;
+	line-height:19px;
+	color:#f0f2f4;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	font-weight:400;
+		border-radius:3px 3px 3px 3px;
+	-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+	
+}
+#toTop b {
+	background:url(/images/back_arr.jpg) no-repeat 0 0;height:10px;width:15px;
+    margin:6px 8px 0 0;
+	display:inline-block;
+}
+#toTopHover, #toTop:hover {
+	display:block;
+}
+#toTopHover srtong, #toTop:hover strong {
+	background:#be6868;
+	border:1px solid #be6868;
+	color:#fff
+}
+#toTop:active, #toTop:focus {
+	outline:none;
+}

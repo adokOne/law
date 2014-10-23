@@ -1,0 +1,68 @@
+/*--------- slider ---------*/
+.slider_holder{width:100%;position:relative;overflow:hidden;}
+
+.slider {
+	width:1300px;
+	position:relative;
+    left:50%;
+	margin-left:-650px;
+	z-index:10 !important
+}
+.items {
+	display:none;
+}
+.next, .prev {
+	position:absolute;
+	left:0;
+	top:30px;
+	width:20px;
+	height:36px;
+	display:block;
+	background:url(/images/slpash_arr_left.png) right top no-repeat;
+	z-index:2;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.next {
+	background:url(/images/splash_arr_right.png) left 0 no-repeat;
+	right:0px;
+	left:auto;
+	top:30px;
+}
+.next:hover {
+	background-position:right 0;
+}
+.prev:hover {
+	background-position:left 0;
+}
+	
+.banner{
+	font-family: 'Oswald', sans-serif;
+	font-size:32px;
+	font-weight:400;
+	text-transform:uppercase;
+	text-align:center;
+	display:block;
+    line-height:39px;
+	color:#fff;
+    text-shadow: #5f5e5e 1px 1px 2px;
+	overflow:hidden;
+	position:absolute;
+	bottom:0;
+	top:357px;
+	left:0;
+	right:0;
+    padding:27px 200px 27px 200px;
+}
+.bottom-bg {
+	position:absolute;
+	bottom:0;
+	top:357px;
+	left:0;
+	right:0;
+    background:url(/images/splash_footer_texture.png) repeat-x 0 0;
+	z-index:95 !important;
+}
+/*-------- end slider -----------*/
